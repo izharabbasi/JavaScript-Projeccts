@@ -16,7 +16,6 @@
 // let markBMI = marksweight / marksheight ** 2;
 // let johnnBMI = johnweight / johnheight ** 2;
 
-
 // if (markBMI < johnnBMI) {
 //     console.log(`Mark's BMI is ${markBMI} lower than John's ${johnnBMI}! `);
 // } else {
@@ -29,18 +28,33 @@ const teamKoalas = (109 + 95 + 106) / 3;
 console.log(teamDolphin);
 console.log(teamKoalas);
 
-if(teamDolphin >= 100 && teamDolphin > teamKoalas) {
-    console.log('Team Dolphin Wins');
+if (teamDolphin >= 100 && teamDolphin > teamKoalas) {
+  console.log("Team Dolphin Wins");
 } else if (teamDolphin <= 100 && teamDolphin > teamKoalas) {
-    console.log("Team Dolphin wins but their average score less then 100");
+  console.log("Team Dolphin wins but their average score less then 100");
 }
 
-if(teamKoalas >= 100 && teamKoalas > teamDolphin) {
-    console.log('Team Koalas Wins');
+if (teamKoalas >= 100 && teamKoalas > teamDolphin) {
+  console.log("Team Koalas Wins");
 } else if (teamKoalas <= 100 && teamKoalas > teamDolphin) {
-    console.log("Team Koalas wins but their average score less then 100");
-} 
-
-if(teamDolphin, teamKoalas  >= 100 && teamDolphin === teamKoalas){
-    console.log('Draw');
+  console.log("Team Koalas wins but their average score less then 100");
 }
+
+if ((teamDolphin, teamKoalas >= 100 && teamDolphin === teamKoalas)) {
+  console.log("Draw");
+}
+
+const bill = 430;
+const tip1 = 15;
+const tip2 = 20;
+
+const tip =
+  bill >= 50 && bill <= 300
+    ? `The bill was ${bill}, the tip was ${res = bill / tip1}, and the total value ${
+        bill + res
+      }`
+    : `The bill was ${bill}, the tip was ${res = bill / tip2}, and the total value ${
+        bill + res
+      }`;
+
+console.log(tip);
